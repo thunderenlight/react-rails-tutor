@@ -1,0 +1,603 @@
+Started GET "/" for ::1 at 2020-03-26 20:51:10 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/iNjaro/.rvm/gems/ruby-2.4.1/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/iNjaro/.rvm/gems/ruby-2.4.1/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (6.8ms)
+Completed 200 OK in 1295ms (Views: 50.5ms)
+
+
+Started GET "/v1/things" for 127.0.0.1 at 2020-03-27 23:21:52 -0500
+Processing by V1::ThingsController#index as JSON
+Completed 200 OK in 1034ms (Views: 0.3ms)
+
+
+Started GET "/v1/things" for 127.0.0.1 at 2020-03-27 23:34:15 -0500
+Processing by V1::ThingsController#index as JSON
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/v1/things" for 127.0.0.1 at 2020-03-27 23:34:33 -0500
+Processing by V1::ThingsController#index as JSON
+Completed 200 OK in 2ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-27 23:34:42 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/public/packs
+[Webpacker] Hash: 21b9c97f88eb295ed553
+Version: webpack 4.42.1
+Time: 20823ms
+Built at: 03/27/2020 11:35:10 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-d0e47fd2395ef73084b9.js  1.21 MiB       application  [emitted] [immutable]  application
+     js/application-d0e47fd2395ef73084b9.js.map  1.39 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-7053881102b54bb704be.js  1.21 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-7053881102b54bb704be.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-d0e47fd2395ef73084b9.js js/application-d0e47fd2395ef73084b9.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-7053881102b54bb704be.js js/server_rendering-7053881102b54bb704be.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 197 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+    + 28 hidden modules
+
+  Rendered static/index.html.erb within layouts/application (28632.5ms)
+Completed 200 OK in 40885ms (Views: 40863.2ms)
+
+
+Started GET "/v1/things" for 127.0.0.1 at 2020-03-27 23:37:07 -0500
+Processing by V1::ThingsController#index as JSON
+Completed 200 OK in 1ms (Views: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 17:02:47 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 503c8b282f07c5040c53
+Version: webpack 4.42.1
+Time: 8990ms
+Built at: 03/28/2020 5:03:04 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-1bdf6b463b79b7d6f772.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-1bdf6b463b79b7d6f772.js.map  1.49 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-656c18e22f94738bbbf9.js  1.33 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-656c18e22f94738bbbf9.js.map  1.49 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-1bdf6b463b79b7d6f772.js js/application-1bdf6b463b79b7d6f772.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-656c18e22f94738bbbf9.js js/server_rendering-656c18e22f94738bbbf9.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 220 bytes {application} {server_rendering} [built]
+[./app/javascript/configureStore.js] 322 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+    + 45 hidden modules
+
+ERROR in ./app/javascript/components/App.js
+Module not found: Error: Can't resolve 'react-redux' in '/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript/components'
+ @ ./app/javascript/components/App.js 26:0-39 47:46-54
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/configureStore.js
+Module not found: Error: Can't resolve 'redux' in '/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript'
+ @ ./app/javascript/configureStore.js 1:0-36 16:14-25
+ @ ./app/javascript/components/App.js
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+  Rendered static/index.html.erb within layouts/application (15929.7ms)
+Completed 200 OK in 21463ms (Views: 20473.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 17:04:22 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 129ms (Views: 124.0ms)
+
+
+Started GET "/hello" for 127.0.0.1 at 2020-03-28 17:05:13 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 98ms (Views: 94.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 17:07:35 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 24c1f925342deb045a94
+Version: webpack 4.42.1
+Time: 7884ms
+Built at: 03/28/2020 5:07:49 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-d33396b85ac0b50e535a.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-d33396b85ac0b50e535a.js.map  1.49 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-405f7158219e09eb69ed.js  1.33 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-405f7158219e09eb69ed.js.map  1.49 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-d33396b85ac0b50e535a.js js/application-d33396b85ac0b50e535a.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-405f7158219e09eb69ed.js js/server_rendering-405f7158219e09eb69ed.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 220 bytes {application} {server_rendering} [built]
+[./app/javascript/configureStore.js] 322 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+    + 45 hidden modules
+
+ERROR in ./app/javascript/components/App.js
+Module not found: Error: Can't resolve 'react-redux' in '/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript/components'
+ @ ./app/javascript/components/App.js 26:0-39 47:46-54
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/configureStore.js
+Module not found: Error: Can't resolve 'redux' in '/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript'
+ @ ./app/javascript/configureStore.js 1:0-36 16:14-25
+ @ ./app/javascript/components/App.js
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+  Rendered static/index.html.erb within layouts/application (14317.5ms)
+Completed 200 OK in 14374ms (Views: 14371.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 17:12:23 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 86ms (Views: 79.0ms)
+
+
+Started GET "/hello" for 127.0.0.1 at 2020-03-28 17:12:31 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 53ms (Views: 47.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 17:26:56 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 7799ms (Views: 5911.1ms)
+
+
+Started GET "/hello" for 127.0.0.1 at 2020-03-28 17:27:15 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 58ms (Views: 52.8ms)
+
+
+Started GET "/hello" for 127.0.0.1 at 2020-03-28 17:28:48 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 126ms (Views: 119.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 17:30:22 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 62ms (Views: 55.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 17:43:18 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/public/packs
+[Webpacker] Hash: b56c3b1510a8b1b939f3
+Version: webpack 4.42.1
+Time: 7716ms
+Built at: 03/28/2020 5:43:37 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-57580069dbd59576232e.js  1.21 MiB       application  [emitted] [immutable]  application
+     js/application-57580069dbd59576232e.js.map  1.39 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-4c188057bbfe19faa159.js  1.21 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-4c188057bbfe19faa159.js.map  1.39 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-57580069dbd59576232e.js js/application-57580069dbd59576232e.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-4c188057bbfe19faa159.js js/server_rendering-4c188057bbfe19faa159.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 220 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+    + 29 hidden modules
+
+WARNING in ./app/javascript/components/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript/components/App.js: Unexpected token, expected "}" (19:55)
+
+  17 |         <BrowserRouter>
+  18 |           <Switch>
+> 19 |             <Route exact path="/" render={() => "Home!")} />
+     |                                                        ^
+  20 |             <Route path="/hello" render={() => <HelloWorld greeting="Friend"/>} />
+  21 |           </Switch>
+  22 |         </BrowserRouter>
+    at Object._raise (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:742:17)
+    at Object.raiseWithData (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:735:17)
+    at Object.raise (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:729:17)
+    at Object.unexpected (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:8757:16)
+    at Object.expect (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:8743:28)
+    at Object.jsxParseExpressionContainer (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4468:10)
+    at Object.jsxParseAttributeValue (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4432:21)
+    at Object.jsxParseAttribute (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4483:44)
+    at Object.jsxParseOpeningElementAfterName (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4503:28)
+    at Object.jsxParseOpeningElementAt (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4496:17)
+    at Object.jsxParseElementAt (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4528:33)
+    at Object.jsxParseElementAt (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4544:32)
+    at Object.jsxParseElementAt (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4544:32)
+    at Object.jsxParseElementAt (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4544:32)
+    at Object.jsxParseElement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4602:17)
+    at Object.parseExprAtom (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4609:19)
+    at Object.parseExprSubscripts (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9602:23)
+    at Object.parseMaybeUnary (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9582:21)
+    at Object.parseExprOps (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9452:23)
+    at Object.parseMaybeConditional (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9425:23)
+    at Object.parseMaybeAssign (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9380:21)
+    at Object.parseParenAndDistinguishExpression (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:10193:28)
+    at Object.parseExprAtom (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9947:21)
+    at Object.parseExprAtom (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:4614:20)
+    at Object.parseExprSubscripts (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9602:23)
+    at Object.parseMaybeUnary (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9582:21)
+    at Object.parseExprOps (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9452:23)
+    at Object.parseMaybeConditional (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9425:23)
+    at Object.parseMaybeAssign (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9380:21)
+    at Object.parseExpression (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:9332:23)
+ @ ./app/javascript/components sync ^\.\/.*$ ./App.js
+ @ ./app/javascript/packs/application.js
+
+  Rendered static/index.html.erb within layouts/application (18522.0ms)
+Completed 200 OK in 18613ms (Views: 18604.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 17:45:00 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: e374a83ed7f475f7c945
+Version: webpack 4.42.1
+Time: 7256ms
+Built at: 03/28/2020 5:45:11 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-978e284815aff9dec954.js  1.33 MiB       application  [emitted] [immutable]  application
+     js/application-978e284815aff9dec954.js.map  1.49 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-a310a2a4a5ce0892620f.js  1.33 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-a310a2a4a5ce0892620f.js.map  1.49 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-978e284815aff9dec954.js js/application-978e284815aff9dec954.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-a310a2a4a5ce0892620f.js js/server_rendering-a310a2a4a5ce0892620f.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 220 bytes {application} {server_rendering} [built]
+[./app/javascript/configureStore.js] 322 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+    + 45 hidden modules
+
+ERROR in ./app/javascript/components/App.js
+Module not found: Error: Can't resolve 'react-redux' in '/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript/components'
+ @ ./app/javascript/components/App.js 26:0-39 47:46-54
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/configureStore.js
+Module not found: Error: Can't resolve 'redux' in '/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript'
+ @ ./app/javascript/configureStore.js 1:0-36 16:14-25
+ @ ./app/javascript/components/App.js
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+  Rendered static/index.html.erb within layouts/application (11670.8ms)
+Completed 200 OK in 11738ms (Views: 11730.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 18:51:13 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/public/packs
+[Webpacker] Hash: 7a9bef8a65ddc4da700e
+Version: webpack 4.42.1
+Time: 10409ms
+Built at: 03/28/2020 6:51:29 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-e3d217b49224100130d6.js  1.44 MiB       application  [emitted] [immutable]  application
+     js/application-e3d217b49224100130d6.js.map  1.59 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-75129618f9fd7339c167.js  1.44 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-75129618f9fd7339c167.js.map  1.59 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-e3d217b49224100130d6.js js/application-e3d217b49224100130d6.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-75129618f9fd7339c167.js js/server_rendering-75129618f9fd7339c167.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 220 bytes {application} {server_rendering} [built]
+[./app/javascript/configureStore.js] 322 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/harmony-module.js] (webpack)/buildin/harmony-module.js 631 bytes {application} {server_rendering} [built]
+    + 72 hidden modules
+
+  Rendered static/index.html.erb within layouts/application (15267.7ms)
+Completed 200 OK in 23267ms (Views: 22147.5ms)
+
+
+Started GET "/hello" for ::1 at 2020-03-28 20:52:36 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 62ms (Views: 56.7ms)
+
+
+Started GET "/hello" for ::1 at 2020-03-28 20:53:44 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 128ms (Views: 114.7ms)
+
+
+Started GET "/hello" for ::1 at 2020-03-28 21:16:12 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/public/packs
+[Webpacker] Hash: 9b5a9cdae57cb3bdb242
+Version: webpack 4.42.1
+Time: 9351ms
+Built at: 03/28/2020 9:16:27 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-5fcac4934c812136c5eb.js  1.44 MiB       application  [emitted] [immutable]  application
+     js/application-5fcac4934c812136c5eb.js.map  1.59 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-a54af5a19c5b95021fe7.js  1.44 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-a54af5a19c5b95021fe7.js.map  1.59 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-5fcac4934c812136c5eb.js js/application-5fcac4934c812136c5eb.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-a54af5a19c5b95021fe7.js js/server_rendering-a54af5a19c5b95021fe7.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 220 bytes {application} {server_rendering} [built]
+[./app/javascript/configureStore.js] 361 bytes {application} {server_rendering} [built]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/harmony-module.js] (webpack)/buildin/harmony-module.js 631 bytes {application} {server_rendering} [built]
+    + 72 hidden modules
+
+  Rendered static/index.html.erb within layouts/application (15330.4ms)
+Completed 200 OK in 15390ms (Views: 15385.2ms)
+
+
+Started GET "/hello" for 127.0.0.1 at 2020-03-28 21:37:31 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: bdcc843ba3ef8c183cde
+Version: webpack 4.42.1
+Time: 9434ms
+Built at: 03/28/2020 9:37:50 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-9d1ba6ea666bba479014.js  1.44 MiB       application  [emitted] [immutable]  application
+     js/application-9d1ba6ea666bba479014.js.map  1.59 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-1895a0dd61abaeea6b8a.js  1.44 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-1895a0dd61abaeea6b8a.js.map  1.59 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-9d1ba6ea666bba479014.js js/application-9d1ba6ea666bba479014.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-1895a0dd61abaeea6b8a.js js/server_rendering-1895a0dd61abaeea6b8a.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 220 bytes {application} {server_rendering} [built]
+[./app/javascript/configureStore.js] 3.87 KiB {application} {server_rendering} [built] [failed] [1 error]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/harmony-module.js] (webpack)/buildin/harmony-module.js 631 bytes {application} {server_rendering} [built]
+    + 72 hidden modules
+
+ERROR in ./app/javascript/components/App.js 84:50-60
+"export 'default' (imported as 'HelloWorld') was not found in './HelloWorld'
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/configureStore.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript/configureStore.js: Unexpected token, expected ";" (22:13)
+
+  20 | 			return {things: action.json.things };
+  21 | 	}
+> 22 | 	return state:
+     | 	            ^
+  23 | }
+  24 | 
+  25 | 
+    at Object._raise (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:742:17)
+    at Object.raiseWithData (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:735:17)
+    at Object.raise (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:729:17)
+    at Object.unexpected (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:8757:16)
+    at Object.semicolon (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:8739:40)
+    at Object.parseReturnStatement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11449:12)
+    at Object.parseStatementContent (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11129:21)
+    at Object.parseStatement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11081:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11656:25)
+    at Object.parseBlockBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11642:10)
+    at Object.parseBlock (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11626:10)
+    at Object.parseFunctionBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:10634:24)
+    at Object.parseFunctionBodyAndFinish (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:10617:10)
+    at /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11796:12
+    at Object.withTopicForbiddingContext (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:10956:14)
+    at Object.parseFunction (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11795:10)
+    at Object.parseFunctionStatement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11427:17)
+    at Object.parseStatementContent (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11119:21)
+    at Object.parseStatement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11081:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11656:25)
+    at Object.parseBlockBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11642:10)
+    at Object.parseTopLevel (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11012:10)
+    at Object.parse (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:12637:10)
+    at parse (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:12688:38)
+    at parser (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/core/lib/parser/index.js:54:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/core/lib/transformation/normalize-file.js:93:38)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/core/lib/transformation/index.js:31:50)
+    at run.next (<anonymous>)
+ @ ./app/javascript/components/App.js 28:0-47 29:12-26
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+  Rendered static/index.html.erb within layouts/application (17096.6ms)
+Completed 200 OK in 24738ms (Views: 23559.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 21:38:24 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 73ms (Views: 64.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-28 21:44:03 -0500
+Processing by StaticController#index as HTML
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 72958ea9db83f2df2125
+Version: webpack 4.42.1
+Time: 9625ms
+Built at: 03/28/2020 9:44:18 PM
+                                          Asset      Size            Chunks                         Chunk Names
+         js/application-a701548504485da76711.js  1.44 MiB       application  [emitted] [immutable]  application
+     js/application-a701548504485da76711.js.map  1.59 MiB       application  [emitted] [dev]        application
+         js/hello_react-d53528050169132c9536.js  1.05 MiB       hello_react  [emitted] [immutable]  hello_react
+     js/hello_react-d53528050169132c9536.js.map  1.21 MiB       hello_react  [emitted] [dev]        hello_react
+    js/server_rendering-c3d9c67f2418efc50ff6.js  1.44 MiB  server_rendering  [emitted] [immutable]  server_rendering
+js/server_rendering-c3d9c67f2418efc50ff6.js.map  1.59 MiB  server_rendering  [emitted] [dev]        server_rendering
+                                  manifest.json  1.05 KiB                    [emitted]              
+Entrypoint application = js/application-a701548504485da76711.js js/application-a701548504485da76711.js.map
+Entrypoint hello_react = js/hello_react-d53528050169132c9536.js js/hello_react-d53528050169132c9536.js.map
+Entrypoint server_rendering = js/server_rendering-c3d9c67f2418efc50ff6.js js/server_rendering-c3d9c67f2418efc50ff6.js.map
+[./app/javascript/components sync recursive ^\.\/.*$] ./app/javascript/components sync ^\.\/.*$ 220 bytes {application} {server_rendering} [built]
+[./app/javascript/configureStore.js] 3.87 KiB {application} {server_rendering} [built] [failed] [1 error]
+[./app/javascript/packs/application.js] 1.04 KiB {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.08 KiB {hello_react} [built]
+[./app/javascript/packs/server_rendering.js] 301 bytes {server_rendering} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} {server_rendering} [built]
+[./node_modules/webpack/buildin/harmony-module.js] (webpack)/buildin/harmony-module.js 631 bytes {application} {server_rendering} [built]
+    + 72 hidden modules
+
+ERROR in ./app/javascript/components/App.js 84:50-60
+"export 'default' (imported as 'HelloWorld') was not found in './HelloWorld'
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/configureStore.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/app/javascript/configureStore.js: Unexpected token, expected ";" (22:13)
+
+  20 | 			return { things: action.json.things };
+  21 | 	}
+> 22 | 	return state:
+     | 	            ^
+  23 | }
+  24 | 
+  25 | 
+    at Object._raise (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:742:17)
+    at Object.raiseWithData (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:735:17)
+    at Object.raise (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:729:17)
+    at Object.unexpected (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:8757:16)
+    at Object.semicolon (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:8739:40)
+    at Object.parseReturnStatement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11449:12)
+    at Object.parseStatementContent (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11129:21)
+    at Object.parseStatement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11081:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11656:25)
+    at Object.parseBlockBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11642:10)
+    at Object.parseBlock (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11626:10)
+    at Object.parseFunctionBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:10634:24)
+    at Object.parseFunctionBodyAndFinish (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:10617:10)
+    at /Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11796:12
+    at Object.withTopicForbiddingContext (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:10956:14)
+    at Object.parseFunction (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11795:10)
+    at Object.parseFunctionStatement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11427:17)
+    at Object.parseStatementContent (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11119:21)
+    at Object.parseStatement (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11081:17)
+    at Object.parseBlockOrModuleBlockBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11656:25)
+    at Object.parseBlockBody (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11642:10)
+    at Object.parseTopLevel (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:11012:10)
+    at Object.parse (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:12637:10)
+    at parse (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/parser/lib/index.js:12688:38)
+    at parser (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/core/lib/parser/index.js:54:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/core/lib/transformation/normalize-file.js:93:38)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/iNjaro/Sites/Rails_Apps/react-rails-tutor/node_modules/@babel/core/lib/transformation/index.js:31:50)
+    at run.next (<anonymous>)
+ @ ./app/javascript/components/App.js 28:0-47 29:12-26
+ @ ./app/javascript/components sync ^\.\/.*$
+ @ ./app/javascript/packs/application.js
+
+  Rendered static/index.html.erb within layouts/application (15448.3ms)
+Completed 200 OK in 15517ms (Views: 15512.0ms)
+
+
+Started GET "/hello" for 127.0.0.1 at 2020-03-28 21:57:25 -0500
+Processing by StaticController#index as HTML
+  Parameters: {"page"=>"hello"}
+  Rendering static/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered static/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 76ms (Views: 71.1ms)
+
+
